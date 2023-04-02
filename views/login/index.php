@@ -69,3 +69,6 @@
 
 
 </style>
+<script type="text/javascript">
+    alert("Usuario: administrador, clave: soporte2");
+</script>
