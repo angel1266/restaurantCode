@@ -5,7 +5,7 @@ mysqli_data_seek ($result, 0);
 $extraido= mysqli_fetch_array($result);
 mysqli_close($conff);
 if(strtotime($extraido["final"]) <= strtotime(date("Y-m-d H:i:00",time()))){
-  echo "<center><h3>Su suscripción se encuentra vencida, para reactivar su cuenta comuniquese con sopoter a traves de https://www.facebook.com/codelightech/, debe indicarle su numero de contrato el cual es: ".$extraido["restaurant_code"]."<h3></center>";
+  echo "<center><div><h3>Su suscripción se encuentra vencida, para reactivar su cuenta comuniquese con sopoter a traves de https://www.facebook.com/codelightech/, debe indicarle su numero de contrato el cual es: ".$extraido["restaurant_code"]."<h3></div></center>";
 }else{
 require 'config.php';
 require 'util/Auth.php';
