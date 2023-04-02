@@ -1,5 +1,10 @@
 <?php
-
+$conff = mysqli_connect("localhost","u271379494_restaurant","Gu1t4rr4123$","u271379494_restaurant_cli");
+$result = mysqli_query($conff, "Select * from client where restaurant_code = 'con001'");
+mysqli_data_seek ($result, 0);
+$extraido= mysqli_fetch_array($result);
+var_dump($extraido);
+mysqli_close($conff);
 require 'config.php';
 require 'util/Auth.php';
 
