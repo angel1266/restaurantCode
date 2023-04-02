@@ -4,7 +4,7 @@ $result = mysqli_query($conff, "Select * from client where restaurant_code = 'co
 mysqli_data_seek ($result, 0);
 $extraido= mysqli_fetch_array($result);
 if($extraido["final"] <= date("yy-m-d")){
-  echo "Su suscripción se encuentra vencida"
+  echo "Su suscripción se encuentra vencida";
 }
 mysqli_close($conff);
 require 'config.php';
