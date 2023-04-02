@@ -38,10 +38,10 @@
     <?php
         if (isset($this->title_page))
         {
-            echo '<title>FacPeru | '.$this->title_page.'</title>';
+            echo '<title>restaurante | '.$this->title_page.'</title>';
         }
         else{
-            echo '<title>FacPeru</title>';
+            echo '<title>restaurante</title>';
         }
     ?>
     
