@@ -70,5 +70,5 @@
 
 </style>
 <script type="text/javascript">
-    alert("Usuario: administrador, clave: soporte2");
+    alert("Para ingresar estos son los datos del demo: \n \nUsuario: administrador, clave: soporte2");
 </script>
