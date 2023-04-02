@@ -7,7 +7,7 @@
                 <div class="row justify-content-center text-center">
                     <div class="col-md-7 col-lg-12 col-xl-9">
                         <a href="javascript:void(0)" class="text-center db"><img src="<?php echo URL; ?>public/images/logo-facperu.png" width='30%' /></a>
-                        <h2 class="text-white mt-4 fw-light">Restaurante <span class="font-weight-medium text-warning">.REST</span></h2>
+                        <h2 class="text-white mt-4 fw-light">SISTEMA ADMINISTRATIVO DE <span class="font-weight-medium text-warning">RESTAURANTES</span></h2>
                         <p class="op-5 text-white fs-4 mt-4">Encargate de la comida, Nosotros del resto.</p>
                     </div>
                 </div>
