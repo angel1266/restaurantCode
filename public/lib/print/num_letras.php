@@ -142,13 +142,13 @@ function numtoletras($xcifra)
                     //     $xcadena.= " CON $xdecimales/100 ".strtoupper(utf8_decode($_SESSION["monAcr"])); //
                     // }                    
                     if ($xcifra < 1) {
-                        $xcadena = "CERO CON $xdecimales/100 Soles";
+                        $xcadena = "CERO CON $xdecimales/100";
                     }
                     if ($xcifra >= 1 && $xcifra < 2) {
-                        $xcadena = "UN CON $xdecimales/100 Soles";
+                        $xcadena = "UN CON $xdecimales/100";
                     }
                     if ($xcifra >= 2) {
-                        $xcadena.= " CON $xdecimales/100 Soles"; //
+                        $xcadena.= " CON $xdecimales/100"; //
                     }
                     break;
             } // endswitch ($xz)

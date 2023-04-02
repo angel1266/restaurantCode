@@ -93,7 +93,7 @@ class Email
             $pdf->Cell(5,$textypos,"Moneda: ");
             $pdf->SetFont('Arial','',10);    
             $pdf->setY(60);$pdf->setX(168);
-            $pdf->Cell(5,$textypos,"SOLES");
+            $pdf->Cell(5,$textypos,"");
             
             /// Apartir de aqui empezamos con la tabla de productos
             $pdf->setY(70);$pdf->setX(135);
