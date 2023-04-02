@@ -140,7 +140,7 @@
                             <button type="button" class="btn waves-effect waves-light btn-primary btn-stock-pollo" style="display: none;" onclick="stock_pollo();">Stock de pollo</button>
                             <?php } ?>
                             <?php if((Session::get('rol') == 1 OR Session::get('rol') == 2 OR Session::get('rol') == 3) AND Session::get('sunat') == 1) { ?>
-                            <a href="<?php echo URL; ?>facturacion"><button class="btn btn-primary waves-effect waves-light border-0" type="button"><span class="btn-label"><img src="<?php echo URL; ?>public/images/logo-sunat.png" width="20px" height="20px" /> Sunat</span> <span class="cont-sunat"></span></button></a>
+                            <a href="<?php echo URL; ?>facturacion"><button class="btn btn-primary waves-effect waves-light border-0" type="button"><span class="btn-label"> Facturación</span> <span class="cont-sunat"></span></button></a>
                             <?php } ?>
                             <?php if(Session::get('rol') == 4) { ?>
                             <button type="button" class="btn waves-effect waves-light btn-primary" onclick="listarPedidos();">Por orden de llegada</button>

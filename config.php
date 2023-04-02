@@ -1,7 +1,7 @@
 <?php 
 
 // CONFIGURAR AQUI EL NOMBRE DEL NEGOCIO
-define('NAME_NEGOCIO', 'FacPeru');
+define('NAME_NEGOCIO', 'Codelightech');
 
 define('MENSAJE_WHATSAPP', 'Su comprobante de pago electrónico ha sido generado correctamente, puede revisarlo en el siguiente enlace:');
 
@@ -21,10 +21,10 @@ define('HASH_PASSWORD_KEY', 'catsFLYhigh2000miles');
 define('DB_TYPE', 'mysql');
 define('DB_HOST', 'localhost');
 // NOMBRE DE LA BASE DE DATOS
-define('DB_NAME', 'sunat');
+define('DB_NAME', 'u271379494_restaurant_dem');
 // NOMBRE DEL  USUARIO DE LA  BASE DE DATOS
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_USER', 'u271379494_demo');
+define('DB_PASS', 'Gu1t4rr4123$');
 define('DB_CHARSET', 'utf8');
 
 
@@ -32,5 +32,5 @@ define('DB_CHARSET', 'utf8');
 define('API_TOKEN', '');
 
 //path
-define('URL', 'http://192.168.1.30/peru/');
+define('URL', 'https://qrinteractivo.com/');
 define('LIBS', 'libs/');
