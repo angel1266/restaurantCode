@@ -3,7 +3,7 @@ $conff = mysqli_connect("localhost","u271379494_restaurant","Gu1t4rr4123$","u271
 $result = mysqli_query($conff, "Select * from client where restaurant_code = 'con001'");
 mysqli_data_seek ($result, 0);
 $extraido= mysqli_fetch_array($result);
-if(strtotime($extraido["final"]) <= strtotime(date("Y-m-d H:i:00",time())){
+if(strtotime($extraido["final"]) <= strtotime(date("Y-m-d H:i:00",time()))){
   echo "Su suscripción se encuentra vencida";
 }
 mysqli_close($conff);
