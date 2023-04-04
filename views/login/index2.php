@@ -44,7 +44,7 @@
         </div>
     </div>
 </div>
-<script>window.rwbp={email:'qrinteractivo@gmail.com',phone:'584121896636',message:'Hola Tienes alguna duda o problema?',lang:'pt-ES'}</script><script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script>
+<script>window.rwbp={email:'qrinteractivo@gmail.com',phone:'584248443238',message:'Hola Tienes alguna duda o problema?',lang:'pt-ES'}</script><script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script>
 <style>
 .text-warning {
     color: #ea5b5d !important;
